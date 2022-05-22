@@ -74,7 +74,7 @@ p{
 	font-weight: 900;
 }
 .header__inner{
-	padding: 35px 0px;
+	padding: 35px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -86,12 +86,12 @@ p{
 	font-size: 13px;
 	font-weight: 700;
 	display: flex;
+	justify-content: space-between;
 }
 .nav__link{
 	color: #ffffff;
 	text-transform: uppercase;
 	opacity: 0.75;
-	margin-left: 50px;
 
 	transition: opacity .2s linear;
 }
@@ -489,9 +489,13 @@ p{
 	color: #fff;
 }
 
+
+/* Media
+===============*/
+
 @media screen and (max-width: 765px) {
 	.header__inner{
-	padding: 25px 0px;
+	padding: 25px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
